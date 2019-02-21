@@ -1,0 +1,16 @@
+{
+  "train_data_path" : "train_all.txt",
+  "test_data_path" : "devwithoutlabels_all.txt",
+  "solution_path" : "test.txt",
+  "glove_dir" : "glove.840B.300d.txt",
+  "num_folds" : 5,
+  "num_classes" : 4,
+  "max_nb_words" : 20000,
+  "max_sequence_length" : 100,
+  "embedding_dim" : 300,
+  "batch_size" : 200,
+  "lstm_dim" : 128,
+  "learning_rate" : 0.008,
+  "dropout" : 0.2,
+  "num_epochs" : 10
+}
